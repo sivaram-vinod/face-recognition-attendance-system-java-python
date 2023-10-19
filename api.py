@@ -88,4 +88,4 @@ def upload_image():
 
 
 if __name__ == "__main__":
-    app.run(port=args.port, host="0.0.0.0", debug=True, threaded=False, processes=3)
+    app.run(port=args.port, host="0.0.0.0")
